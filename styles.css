@@ -213,11 +213,11 @@ h1{
     animation: css 5s;
 }
 .js{
-    width: 30%;
+    width: 60%;
     animation: js 5s;
 }
 .reactjs{
-    width: 5%;
+    width: 20%;
     animation: reactjs 5s;
 }
 .php{
@@ -249,7 +249,7 @@ h1{
         width: 0%;
     }
     100%{
-        width: 30%;
+        width: 60%;
     }
 }
 @keyframes reactjs{
@@ -257,7 +257,7 @@ h1{
         width: 0%;
     }
     100%{
-        width: 5%;
+        width: 20%;
     }
 }
 @keyframes php{
