@@ -5,30 +5,6 @@ function popupopen(){
 function popupcloce(){
 document.querySelector(".popup").classList.remove("active");
 };
-// Light/Dark Mode
-
-// const toggleDark = document.getElementById("toggleDark");
-// const toggleLight = document.getElementById("toggleLight");
-// const body = document.querySelector("body");
-// const header = document.querySelector("header");
-
-// toggleDark.addEventListener("click", function(){
-//     if(this.classList.toggle("fa-regular", "fa-sun")){
-//         body.style.background = "white";
-//         body.style.color = "black";
-//         body.style.transition = "2s";
-//         header.style.background = "white"
-//         }
-//     });
-
-//     toggleLight.addEventListener("click", function(){
-//         if(this.classList.toggle("fa-regular", "fa-moon")){
-//             body.style.background = "black";
-//             body.style.color = "white";
-//             body.style.transition = "2s";
-//             header.style.background = "black"
-//         }
-// });
 function Zainteresowania(){
 document.getElementById("main").textContent = "Zainteresowania"
 document.getElementById("li1").textContent = "Programowanie"
@@ -60,7 +36,7 @@ function english(){
     document.getElementById("pro").innerHTML = 'Projects <i class="fa-solid fa-briefcase"></i>'
     document.getElementById("kon").innerHTML = 'contact <i class="fa-solid fa-address-book"></i>'
     document.getElementById("text").innerHTML = 'My name is Kamil Chabowski, I am currently 20 years old and I live near Płock. <br>I started to be interested in programming at the age of 17 and since then I have been expanding my knowledge in this field. <br>I mainly program front-end, but I also know the basics of back-end.'
-    document.getElementById("btn1").innerHTML = 'Languages <i class="fa-solid fa-code"></i>'
+    document.getElementById("btn1").innerHTML = 'Download CV <i class="fa-solid fa-file"></i>'
     document.getElementById("btn2").innerHTML = 'Qualifications <i class="fa-solid fa-certificate"></i>'
     document.getElementById("html").innerHTML = 'HTML is the foundation of every website, defining the structure and core content elements, which are then styled and dynamically modified using CSS and JavaScript. <br> <br> Knowledge of: <i class="fa-solid fa-code"></i>'
     document.getElementById("css").innerHTML = 'CSS is a key tool in creating aesthetic and functional websites. Thanks to CSS, websites can be more attractive, readable and user-friendly.  <br> <br> Knowledge of: <i class="fa-solid fa-code"></i>'
@@ -90,7 +66,7 @@ function polish(){
     document.getElementById("pro").innerHTML = 'Projekty <i class="fa-solid fa-briefcase"></i>'
     document.getElementById("kon").innerHTML = 'Kontakt <i class="fa-solid fa-address-book"></i>'
     document.getElementById("text").innerHTML = 'Nazywam Się Kamil Chabowski, aktualnie mam 20 lat i Mieszkam niedaleko Płocka. <br>Zaczałem interesować się programowaniem w wieku 17 lat i od tego czasu poszerzam swoją więdze w tym zakresie. <br>Głownie programuje front-end, lecz znam też podstawy Back-endu.'
-    document.getElementById("btn1").innerHTML = 'Znane języki <i class="fa-solid fa-code"></i>'
+    document.getElementById("btn1").innerHTML = 'Pobierz CV <i class="fa-solid fa-file"></i>'
     document.getElementById("btn2").innerHTML = 'Kwalifikacje <i class="fa-solid fa-certificate"></i>'
     document.getElementById("html").innerHTML = 'HTML jest fundamentem każdej strony internetowej, definiując strukturę i podstawowe elementy treści, które są następnie stylizowane i dynamicznie modyfikowane przy użyciu CSS i JavaScript. <br> <br> Znajomość:  <i class="fa-solid fa-code"></i>'
     document.getElementById("css").innerHTML = 'CSS jest kluczowym narzędziem w tworzeniu estetycznych i funkcjonalnych stron internetowych. Dzięki CSS strony internetowe mogą być bardziej atrakcyjne, czytelne i przyjazne dla użytkowników.  <br> <br> Znajomość:  <i class="fa-solid fa-code"></i>'
