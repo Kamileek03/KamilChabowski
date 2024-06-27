@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: white ;
     color: #252424;
@@ -5,7 +8,6 @@ body{
     overflow-x: hidden;
     left: 0;
     margin:0 ;
-    scroll-behavior: smooth;
     cursor:default;
 }
 /* Header */
@@ -163,6 +165,7 @@ h1{
     align-items: center;
     display: inline-flex;
     gap: 100px;
+
 }
 .card
 {
@@ -275,30 +278,29 @@ h1{
     100%{
         width: 80%;
     }
-    /* o mnie */
 }
+    /* o mnie */
 .ofirmie{
-    margin-top: -50px;
-    width: auto;
-    color: black;
-    width: max-content;
-    background-color: green;
-    float: left;
-    text-align: left;
+    height: 600px;
+    background: green;
     padding: 100px;
+    display: flex;
+    row-gap: auto;
 }
 .Text1{
     width: 45%;
     margin-right: 100px;
     overflow-wrap: break-word;
-    float: right;
     text-align: left;
     color: white;
 }
+.zdj{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
 .img2{
-    position: relative;
     float: left;
-    width: 40%;
     border-radius: 100px;
 }
 .img2:hover{
@@ -326,7 +328,6 @@ h1{
     
 }
 .listainfo:hover{
-    /* font-size: 25px; */
     padding: 10px;
     margin: 5px;
     background: white;
@@ -339,12 +340,12 @@ h1{
 }
 /* moje projekty */
 .projekty{
+    padding: 50px;
     background-color: #DCC1AB;
 }
 .tytul{
     justify-content: center;
     text-align: center;
-    padding-top: 750px;
     margin: 100px;
 }
 .zdjecia{
@@ -371,29 +372,22 @@ h1{
 }
 /* instablok */
 .instablock{
-    background-color: white;
-    display: flex;
-    height: auto;
+    background: white;
+    position: relative;
+    width: 100%;
 }
-
-.left{
-    display: flex;
-    color: white;
-    margin: 20px 50px;
-    flex: 1;
-    width: auto;
+.block{
     background: green;
-    align-items: center;
-    padding: 100px 90px;
+    margin: 50px;
+    padding: 100px;
+    color: white;
+    display: flex;
+    row-gap: auto;
 }
-.right{
+#str{
     display: flex;
     flex: 1;
-    color: white;
-    margin: 50px;
-    width: auto;
-    padding-left: 1200px;
-    align-items: center;
+    justify-content: flex-start;
 }
 .btn5{
     background-color: white;
@@ -412,7 +406,7 @@ h1{
 #end{
     height: auto;
     width: auto;
-    background-color: #DCC1AB;
+    background: #DCC1AB;
     color: black;
     padding: 50px 120px 50px 120px;
     display: flex;
@@ -494,7 +488,7 @@ a{
     border-radius: 5px;
 }
 .popup {
-    position: absolute;
+    position: fixed;
     top: -150%;
     left: 50%;
     opacity: 0;
