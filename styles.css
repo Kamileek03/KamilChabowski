@@ -84,7 +84,6 @@ header ul li a:hover::before{
     width: auto;
     height: 600px;
     background-color: #DCC1AB;
-    justify-content: space-between;
     left: 0;
 }
 h1{
@@ -143,7 +142,7 @@ h1{
     top: -50px;
     height: auto;
     color: black;
-    background-color: #F5F0EC;
+    background: #F5F0EC;
 }
 .blok1h{
     padding-top: 100px;
@@ -153,7 +152,6 @@ h1{
     height: 72px;
     width: 30%;
     overflow-wrap: break-word;
-    margin: 50px;
     margin-left: 100px;
 }
 /* Karty */
@@ -161,11 +159,11 @@ h1{
 {
     padding-left: 100px;
     display: flex;
-    text-align: left;
     align-items: center;
+    justify-content: center;
     display: inline-flex;
     gap: 100px;
-
+    flex-wrap: wrap;
 }
 .card
 {
@@ -176,6 +174,7 @@ h1{
     padding: 30px;
     font-size: 14px;
     float: left;
+    text-align: left;
     margin-bottom: 100px;
 }
 .card:hover{
@@ -297,7 +296,7 @@ h1{
 .zdj{
     display: flex;
     flex: 1;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .img2{
     float: left;
